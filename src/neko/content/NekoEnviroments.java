@@ -30,7 +30,7 @@ public class NekoEnviroments {
         try {
             for (int count = 0; count <= total_floor_pack; count++) {
                 int counT = count;
-                new Floor("Floor " + counT) {{
+                new Floor(counT + "") {{
                     localizedName = "Floor" + counT;
                 }};
             }

@@ -7,7 +7,7 @@ import mindustry.type.Liquid;
 public class NekoItemsAndLiquids {
     public static Item cophalast, duras, fabris, faras,
     flaxol, glass, navitas, pausis, 
-    rudis, simus, tentias, vastum, xerula;
+    rudis, simus, tentias, vastum, xearula;
     public static Liquid barbavior, fortial, horani, viscosy;
 
     public static void load() {
@@ -59,8 +59,8 @@ public class NekoItemsAndLiquids {
             localizedName = "Vastum";
         }};
 
-        xerula = new Item("xerula", Color.valueOf("abbcfd")) {{
-            localizedName = "Xerula";
+        xearula = new Item("Xearula", Color.valueOf("abbcfd")) {{
+            localizedName = "Xearula";
         }};
 
         barbavior = new Liquid("Barbavior", Color.valueOf("c5eaa0")) {{
