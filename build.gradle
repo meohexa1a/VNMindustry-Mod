@@ -79,6 +79,10 @@ jar{
         include "mod.hjson"
     }
 
+    from("scrips/"){
+        include "**"
+    }
+
     from("assets/"){
         include "**"
     }
