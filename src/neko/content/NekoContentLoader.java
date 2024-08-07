@@ -4,5 +4,6 @@ public class NekoContentLoader {
     public static void load() {
         NekoItemsAndLiquids.load();
         NekoEnviroments.load();
+        NekoCores.load();
     }
 }
