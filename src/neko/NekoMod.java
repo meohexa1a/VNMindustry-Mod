@@ -7,5 +7,4 @@ public class NekoMod extends Mod {
     public void loadContent() {
         
     }
-
 }
