@@ -9,6 +9,8 @@ public class NekoEnviroments {
     public static final int total_floor_pack = 7;
 
     public static void load() {
+        // Ore loader
+        
         // Wall pack loader
         try {
             for (int count = 1; count <= total_wall_pack; count++) {
